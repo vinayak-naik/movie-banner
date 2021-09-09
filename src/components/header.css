@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 0.8;
+}
+.header{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+.header-left{
+    text-align: center;
+    flex-basis: 50%;
+}
+.header-left h1{
+    color: white;
+    font-size: 2.5rem;
+}
+.header-left small{
+    color: white;
+    font-size: 1rem;
+}
+
+.header-right{
+    display: flex;
+    justify-content: center;
+    flex-basis: 50%;
+}
+.input-box{
+    height: 35px;
+    max-width: 400px;
+    padding-left: 50px;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    flex-grow: 1;
+    margin-right: 10px;
+}
+input{
+    height: 100%;
+    width: 100%;
+
+    border: none;
+    outline: none;
+    background: transparent;
+}
+/* button{
+    height: 100%;
+    width: 140px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    border: none;
+    outline: none;
+    border-left: 1px solid rgb(146, 146, 146);
+} */
+
+/* -------------------------------------------------------- */
+
+@media only screen and (max-width:900px){
+    .header-left h1{
+        font-size: 2rem;
+    }
+}
+@media only screen and (max-width:700px){
+    .header-left h1{
+        font-size: 1.8rem;
+    }
+}
+@media only screen and (max-width:600px){
+    .header-left h1{
+        font-size: 1.6rem;
+    }
+    .input-box{
+        height: 35px;
+    }
+}
+@media only screen and (max-width:550px){
+    .header-left h1{
+        font-size: 2rem;
+    }
+    .input-box{
+        height: 35px;
+        margin-left: 10px;
+    }
+    .header{
+        flex-direction: column;
+        height: 90px;
+    }
+    .header-left{
+        text-align: center;
+        flex-basis: 100%;
+        margin-top: 5px;
+    }
+    .header-right{
+        display: flex;
+        justify-content: center;
+        flex-basis: 100%;
+    }
+}
+@media only screen and (max-width:350px){
+    .header-left h1{
+        font-size: 1.8rem;
+    }
+    .input-box{
+        height: 35px;
+    }
+}
+@media only screen and (max-width:290px){
+    .header-left h1{
+        font-size: 1.6rem;
+    }
+    .input-box{
+        padding-left: 20px;
+    }
+}
+@media only screen and (max-width:260px){
+    .header-left h1{
+        font-size: 1.5rem;
+    }
+}
+@media only screen and (max-width:240px){
+    .header-left h1{
+        font-size: 1.4rem;
+    }
+    .input-box{
+        padding-left: 20px;
+    }
+}
+@media only screen and (max-width:220px){
+    .header{
+        flex-direction: column;
+        height: 100px;
+    }
+}

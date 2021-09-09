@@ -1,0 +1,19 @@
+.card1{
+    background: rgb(0, 0, 0);
+    margin: 20px 0;
+    margin-left: 10px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.card1 img{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.card-text{
+    color: white;
+    padding: 10px;
+    text-align: center;
+}

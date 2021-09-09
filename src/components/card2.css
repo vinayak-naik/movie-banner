@@ -1,0 +1,17 @@
+.card-text{
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.card2{
+    background: rgb(0, 0, 0);
+    margin: 10px 5px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.card2 img{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
